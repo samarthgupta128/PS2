@@ -37,13 +37,3 @@ My analysis revealed that **Max Jerk** dominates the penalty score. Standard "Sk
 * **Dynamics**: Full 2-DOF Quarter-Car model ($m_s, m_u, k_s, k_t$).
 
 ---
-
-## 🛠️ Project Structure
-
-```bash
-📦 Quarter-Car-Optimization
- ┣ 📜 quarter_car_optimized.py  # 🧠 The BRAIN: Simulation + 4 Controller Variants
- ┣ 📜 road_profiles.csv         # Input data
- ┣ 📜 submission.csv            # Final computed metrics
- ┣ 📂 plots_optimized           # generated displacement plots
- ┗ 📜 README.md
